@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none ;
+    align-items: center;
+}
+
+ul li a {
+    padding: 0 36px;
+    text-decoration: none;
+    color:#585958;;
+    display: inline-block;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #ED5829;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+li a:hover::after{
+    width: 100%;
+    color: #ED5829;
+}
+
+main {
+    display: flex;
+    /* border: 1px solid red; */
+    height: calc(75vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-img {
+    max-width: 675px;
+    height: auto;
+}
+
+.content-left {
+    width: 35%;
+}
+
+main h1 {
+    font-size: 60px;
+    color: #000000;
+    padding-bottom: 18px;
+}
+
+main p {
+    font-size: 18px;
+    color: #585958;
+    font-weight: 400;
+    line-height: 31.5px;
+    margin: 30px o;
+    padding-bottom: 30px;
+}
+
+.Letsgo-btn {
+    padding: 15px 30px;
+    background: #ED5829;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 25px rgba(237, 88, 41, 0.2);
+    border-radius: 5px;
+    width: 234px;
+    height: 60px;
+    left: 100px;
+    top: 537px;
+}
+
+.login-btn {
+    padding: 15px 30px;
+    color: #ED5829;
+    outline: none;
+    border: 3px solid #ED5829;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    transition: none;
+}    
+
+@media(max-width: 700px) {
+    .main h1 {
+        font-size: 20px;
+    }
+}
+
+/* container 2 */
+
+.container-2 {
+    background: #FBFBFB;
+    display: flex;
+    /* border: 1px solid red; */
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.second-img {
+    max-width: 775px;
+    width: 875px;
+    height: 590px;
+    left: 100px;
+    top: 130px;
+
+}
+
+.container2-left{
+    width: 55%;
+}   
+section h1 {
+    font-size: 60px;
+    color: #000000;
+    padding-bottom: 18px;
+}
+
+section p {
+    font-size: 18px;    
+    color: #585958;
+    font-weight: 400;
+    line-height: 31.5px;
+    margin: 30px o;
+    padding-bottom: 30px;
+}
+
+
+.knowmore-btn {
+    padding: 15px 30px;
+    background: #ED5829;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 25px rgba(237, 88, 41, 0.2);
+    border-radius: 5px;
+    width: 234px;
+    height: 60px;
+    left: 100px;
+    top: 537px;
+}
+
+/* container 3 */
+
+.container3 {
+    display: flex;
+    /* border: 1px solid red; */
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.third-img {
+    max-width: 675px;
+    height: auto;
+}
+
+.container3-left {
+    width: 35%;
+}
+
+section h1 {
+    font-size: 60px;
+    color: #000000;
+    padding-bottom: 18px;
+}
+
+section p {
+    font-size: 18px;
+    color: #585958;
+    font-weight: 400;
+    line-height: 31.5px;
+    margin: 30px o;
+    padding-bottom: 30px;
+}
+
+.Learnnow-btn {
+    padding: 15px 30px;
+    background: #ED5829;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 25px rgba(237, 88, 41, 0.2);
+    border-radius: 5px;
+    width: 234px;
+    height: 60px;
+    left: 100px;
+    top: 537px;
+}
+
+/* ---courses--- */
+
+section .courses {
+    background: linear-gradient(180deg, #FBFBFB 67.85%, rgba(251, 251, 251, 0.17) 100%);;
+}
+.courses {
+    max-width: 75%;
+    margin: auto;
+    text-align: start;
+    padding-top: 50px; 
+}
+
+.courses h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+    padding-bottom: 36px;
+}
+ 
+
+.row {
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 72px 75px;
+}
+
+.row p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.courses img {
+    width: 178px;
+    /* height: 161.48px; */
+    left: 286px;
+    top: 200px;
+    padding: 24px 0px;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    border-radius: 10px;
+    margin-bottom:  5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.card-btn {
+    padding: 10px 24px;
+    background: #ED5829;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 25px rgba(237, 88, 41, 0.2);
+    border-radius: 5px;
+    justify-content: end;
+}
+
+@media(max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+/* ---register card--- */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #ED5829;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-4 {
+    max-width: 75%;
+    margin: auto;
+    text-align: start;
+    /* padding-top: 50px;  */
+}
+
+ .signup__container p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 24px;
+    color: #000000;
+ }
+
+ .signup__container {
+    display: flex;
+ }
+
+ .form-group {
+     padding-top: 20px;
+ }
+
+ .container_form {
+ border-radius: 5px;
+ background-color: #EDF6FF;
+ padding: 20px;
+ }
+
+ .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .form-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit], .container-4{
+      width: 100%;
+      margin-top: 0;
+    }
+}
